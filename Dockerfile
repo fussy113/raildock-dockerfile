@@ -1,8 +1,5 @@
-ARG NODE_VERSION
-ARG RUBY_VERSION
-
-FROM node:${NODE_VERSION}-alpine as node
-FROM ruby:${RUBY_VERSION}-alpine
+FROM node:lts-alpine as node
+FROM ruby:2.5.5-alpine
 
 ENV LANG C.UTF-8
 
