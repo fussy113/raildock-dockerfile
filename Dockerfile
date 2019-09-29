@@ -20,7 +20,7 @@ RUN ln -s /opt/yarn/bin/yarn /usr/local/bin/yarn \
     && ln -s /opt/yarn/bin/yarnpkg /usr/local/bin/yarnpkg
 
 ENV BUILD_PACKAGES="curl-dev build-base" \
-    DEV_PACKAGES="zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev mariadb-dev" \
+    DEV_PACKAGES="zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev mariadb-dev less" \
     RUBY_PACKAGES="ruby-json yaml"
 
 # Update and install base packages and nokogiri gem that requires a
